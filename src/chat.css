@@ -20,3 +20,59 @@
 .chat_headerInfo > p{
     color:grey;
 }
+.chat_body{
+    flex:1;
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    background-image: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+
+}
+.chat_message{
+    position:relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #ffffffff;
+    margin-bottom: 30px;
+}
+.chat_name{
+    position: absolute;
+    font-weight: 800;
+    top: -16px;
+    font-size: xx-small;
+}
+.chat_reciever{
+    margin-left: auto;
+    background-color: #dcf8c6;
+
+}
+.chat_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.chat_footer > form{
+    display: flex;
+    flex: 1;
+
+}
+.chat_footer > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+.chat_footer > form > button{
+    display: none;
+
+}
+.chat_footer > .MuiSvgIcon-root{
+padding:10px;
+color: grey;;
+}
+.chat_timeStamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
