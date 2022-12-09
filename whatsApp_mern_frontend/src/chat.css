@@ -59,6 +59,7 @@
 
 }
 .chat_footer > form > input{
+    outline-width: 0;
     flex: 1;
     border-radius: 30px;
     padding: 10px;
@@ -69,8 +70,8 @@
 
 }
 .chat_footer > .MuiSvgIcon-root{
-padding:10px;
-color: grey;;
+    padding:10px;
+    color: grey;;
 }
 .chat_timeStamp{
     margin-left: 10px;
